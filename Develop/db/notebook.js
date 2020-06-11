@@ -1,6 +1,10 @@
 // require the uuidv4 package to generate an { id : uuidv4()}
-
-class Notebook {
+const uuid = require("uuidv4");
+const express = require("express");
+const app = express();
+const PORT = 8080;
+// cosnt fs = require('fs');
+class notebook {
   // create getNotes() function
   //  inside of this function, you want to READ from the db.json file
   // contents of the json file will be displayed on the page

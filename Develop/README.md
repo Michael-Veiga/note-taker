@@ -50,6 +50,6 @@ This homework was much more challenging than I had anticipated. Firstly, it took
 
 ## Example Media
 
-![Starting page](/public/assets/images/nthomepage.png)
+![Starting page](https://github.com/Michael-Veiga/note-taker/blob/master/Develop/public/assets/images/nthomepage.png?raw=true)
 
-![Note Page](/public/assets/images/ntnotepage.png)
+![Note Page](https://github.com/Michael-Veiga/note-taker/blob/master/Develop/public/assets/images/ntnotepage.png?raw=true)

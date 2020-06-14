@@ -30,10 +30,15 @@ router.post("/notes", (req, res) => {
       throw err;
     }
     notesArray = JSON.parse(data);
+
+    if (!notesArray) {
+      throw new error("Note must have title and text");
+    }
     // use uuid to assign each new note
     addNote.id = uuidv4();
     // push the array to the addNote variable only after realizing an hour later that the push() function was fine, but you accidentally deleted your db.json
     notesArray.push(addNote);
+
     // write to the data file
     fs.writeFile(db, JSON.stringify(notesArray), (err) => {
       if (err) {

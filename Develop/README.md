@@ -50,6 +50,6 @@ This homework was much more challenging than I had anticipated. Firstly, it took
 
 ## Example Media
 
-![Starting page](public/assets/images/nthomepage.png)
+![Starting page](/public/assets/images/nthomepage.png);
 
-![Note Page](public/assets/images/ntnotepage.png)
+![Note Page](/public/assets/images/ntnotepage.png);
